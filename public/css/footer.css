@@ -1,0 +1,102 @@
+.footer{
+    background-color: #0D101A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 10vw;
+}
+.titulo{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+}
+.menu-options-footer{
+    margin-top:30px;
+}
+.footer-i{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-i-a{
+    display: flex;
+    flex-direction: column;
+}
+.menu-options-footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.menu-options-footer ul li{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.redes img{
+    width:25px;
+    height: 25px;
+    margin: 0px 5px;
+}
+.footer-ii{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.legal-options{
+    margin-bottom: 10px;
+}
+.legal-options ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.legal-options ul li{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.devlum{
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .footer-i-a{
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer .footer-i .footer-i-a .titulo{
+        margin-right: 60px;
+    }
+
+    .legal-options ul{
+        width: 400px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .legal-options ul li{
+        margin: 0px;
+    }
+}
+@media (min-width: 768px) {
+    .redes img{
+        width: 30px;
+        height: 30px;
+        margin: 0px 5px;
+    }
+}
