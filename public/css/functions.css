@@ -52,7 +52,7 @@
         font-size: 25px;
     }
     .functions-card-img{
-        height: 110px;
+        height: 290px;
     }
 }
 @media(min-width: 768px) {
@@ -63,7 +63,7 @@
         width: 50%;
     }
     .functions-card-img{
-        width: 50%;
+        width: 100%;
         height: auto;
     }
     .card-img-2, .card-img-4{
